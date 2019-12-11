@@ -1,0 +1,1 @@
+[InnoDB七种锁——记录锁、间隙锁、临键锁](https://my.oschina.net/u/2607135/blog/2981054)
