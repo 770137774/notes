@@ -8,7 +8,6 @@ index-pack failed
 ```
 解决方法：
 
-
 git config --global http.postBuffer 524288000
 
 修改配置文件
@@ -40,6 +39,11 @@ $ git clone --depth=1 https://github.com/JGPY/large-repository.git
 
 --depth=1 表示只下载最近一次的版本，使用浅复制可以大大减少下载的数据量，例如， CodeIgniter 项目完整下载有近 100MiB ，而使用浅复制只有 5MiB 多，这样即使在恶劣的网络环境下，也可以快速的获得代码。如果之后又想获取完整历史信息，可以使用下面的命令：
 $ git fetch --unshallow
-————————————————
-版权声明：本文为CSDN博主「莱宝」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_21508727/article/details/89413590
+
+###2、git remote -v
+```
+ #查看git源
+ origin  https://github.com/770137774/notes.git (fetch)
+ origin  https://github.com/770137774/notes.git (push)
+
+```
