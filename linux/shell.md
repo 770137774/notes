@@ -8,3 +8,5 @@ liblts.so 共享库的路径是否已加入缓存中。
 ```
 sudo -E
 ```
+###user创建
+https://www.cnblogs.com/2016024291-/p/9073843.html
